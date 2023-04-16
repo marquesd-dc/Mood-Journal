@@ -31,7 +31,7 @@ export default function EntryForm() {
                 <textarea className='entry-grid-item' name='notes' onChange={(e) => setNotes(e.target.value)}></textarea>
                 <label className='entry-grid-item-text'>How did you feel on a scale of 1-10?: </label>
                 <input className='entry-grid-item' type="number" name='number' min="1" max="10" onChange={(e) => setNumber(e.target.value)}></input>
-               <button id='btn-entry' className='btn btn-primary' style={{gridColumn: 'span 2'}}>Create new journal entry</button>
+                <button id='btn-entry' className='btn btn-primary' style={{gridColumn: 'span 2'}}>Create new journal entry</button>
             </form>
         </div>
     )
